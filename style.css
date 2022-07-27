@@ -1,0 +1,46 @@
+.top-banner-title h1 {
+    /* font-size: 2.5 rem; */
+    font-weight: 700;
+}
+
+.top-banner-title p {
+    margin: 1rem 0 2rem 0;
+}
+
+/* Media quaries */
+
+/* Mobile Device */
+
+@media screen and (max-width: 688px) {
+
+
+    .top-banner-title h1 {
+        font-size: 0.3 rem;
+        font-weight: 400;
+    }
+
+
+}
+
+
+/* Tablet Devices */
+@media screen and (min-width: 689px) and (max-width: 992px) {
+
+    .top-banner-title h1 {
+        font-size: 1 rem;
+        font-weight: 600;
+    }
+
+    .top-banner-title p {
+        font-size: 0.8rem;
+    }
+
+}
+
+/* Desktop devices */
+@media screen and (min-width: 993px) {
+
+    .top-banner-title h1 {
+        font-size: 2.5rem;
+    }
+}
