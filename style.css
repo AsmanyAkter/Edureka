@@ -1,46 +1,18 @@
-.top-banner-title h1 {
-    /* font-size: 2.5 rem; */
-    font-weight: 700;
+.special-color,
+.special-color:hover {
+    background-color: #289BDE;
+    color: white;
 }
 
-.top-banner-title p {
-    margin: 1rem 0 2rem 0;
+.special-color-text {
+    color: #289BDE;
 }
 
-/* Media quaries */
+.special-color-2,
+.special-color-2:hover {
+    background-color: white;
+    color: #289BDE;
+    margin-top: 2rem;
+    height: 45px;
 
-/* Mobile Device */
-
-@media screen and (max-width: 688px) {
-
-
-    .top-banner-title h1 {
-        font-size: 0.3 rem;
-        font-weight: 400;
-    }
-
-
-}
-
-
-/* Tablet Devices */
-@media screen and (min-width: 689px) and (max-width: 992px) {
-
-    .top-banner-title h1 {
-        font-size: 1 rem;
-        font-weight: 600;
-    }
-
-    .top-banner-title p {
-        font-size: 0.8rem;
-    }
-
-}
-
-/* Desktop devices */
-@media screen and (min-width: 993px) {
-
-    .top-banner-title h1 {
-        font-size: 2.5rem;
-    }
 }
